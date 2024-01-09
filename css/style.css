@@ -1,0 +1,44 @@
+
+.sidebar-grid__content p:nth-last-child(-n + 3) {
+    /* defualt  */
+    display: none; 
+    opacity: 1;
+    transition: opacity 4.5s ease-in-out;
+}
+
+.show-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #fffdfd;
+    width: 100%;
+    color: #00b4fc;
+    box-shadow: 4px 4px 10px 4px rgba(62,66,66,0.13);     
+    transition: background-color 0.5s ease-out;
+}
+
+.show-description:hover{
+    background-color: #00a8b6;
+    color: #fffdfd;
+}
+
+.show-description .arrow {
+    /* padding: 1px; */
+    width: 2.4%;
+    margin-left: 5px;
+    transition: transform 0.3s ease; 
+}
+.show-description .arrow:hover {
+    background-color: #09d5e7;
+    color: #fffdfd;
+}
+.show-description.collapsed .arrow {
+    transform: rotate(180deg); 
+}
+
