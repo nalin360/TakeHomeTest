@@ -8,6 +8,14 @@ The "Show Me" button is a user interface element designed to reveal additional c
 
 ![1704790982946](image/README/1704790982946.png)
 
+
+## Phone number
+
+Increase the phone number font weight when in it comes to the view area.
+
+This helps users to easily identify the phone number and remember it. The increased font weight also emphasizes the phone number, making it stand out from the rest of the text.
+
+
 ---
 
 
