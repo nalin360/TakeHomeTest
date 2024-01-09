@@ -10,16 +10,16 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 12px 12px;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     border: none;
+    padding: 12px 12px;
     border-radius: 5px;
-    background-color: #fffdfd;
     width: 100%;
-    color: #00b4fc;
     box-shadow: 4px 4px 10px 4px rgba(62,66,66,0.13);     
+    background-color: #fffdfd;
+    color: #00b4fc;
     transition: background-color 0.5s ease-out;
 }
 
@@ -29,16 +29,63 @@
 }
 
 .show-description .arrow {
-    /* padding: 1px; */
+    
     width: 2.4%;
     margin-left: 5px;
     transition: transform 0.3s ease; 
 }
 .show-description .arrow:hover {
-    background-color: #09d5e7;
+    background-color: #06dff3;
     color: #fffdfd;
 }
 .show-description.collapsed .arrow {
     transform: rotate(180deg); 
 }
 
+@media (min-width: 320px) {
+    .show-description .arrow {
+        padding-bottom: 4px;
+        padding-top: 4px;
+        width: 1.9%;
+    }
+}
+
+@media (min-width: 481px) {
+    .show-description .arrow {
+        padding-bottom: 4px;
+        padding-top: 4px;
+        width: 1.4%;
+    }
+}
+
+@media (min-width: 641px) {
+    .show-description .arrow {
+        padding-bottom: 4px;
+        padding-top: 4px;
+        width: 1.2%;
+    }
+}
+
+@media (min-width: 961px) {
+    .show-description .arrow {
+        padding-bottom: 4px;
+        padding-top: 2px;
+        width: 1.2%;
+    }
+}
+
+@media (min-width: 1025px) {
+    .show-description .arrow {
+        padding-bottom: 4px;
+        padding-top: 2px;
+        width: 1.8%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .show-description .arrow {
+        padding-bottom: 4px;
+        padding-top: 2px;
+        width: 1.4%;
+    }
+}
