@@ -11,7 +11,7 @@ function toggleDescription() {
         showDescriptionBtn.addEventListener('click', () => {
             var hiddenParagraphs = document.querySelectorAll(sidebarContentSelector);
                         hiddenParagraphs.forEach(function(paragraph) {
-                // Toggle the display property
+                // Toggle the display property for discription
                 paragraph.style.display = (paragraph.style.display === displayNone || paragraph.style.display === '') ? displayBlock : displayNone;
             });
             showDescriptionBtn.classList.toggle('collapsed');
