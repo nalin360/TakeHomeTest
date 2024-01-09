@@ -42,6 +42,11 @@
     transform: rotate(180deg); 
 }
 
+.sidebar-cta__number{
+    font-weight: 700; 
+    transition: font-weight 1.5s ease-in-out; 
+  }
+
 @media (min-width: 320px) {
     .show-description .arrow {
         padding-bottom: 4px;
