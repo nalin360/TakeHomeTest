@@ -29,9 +29,9 @@
 }
 
 .show-description .arrow {
-    
     width: 2.4%;
     margin-left: 5px;
+    transform: rotate(180deg);
     transition: transform 0.3s ease; 
 }
 .show-description .arrow:hover {
@@ -39,7 +39,7 @@
     color: #fffdfd;
 }
 .show-description.collapsed .arrow {
-    transform: rotate(180deg); 
+    transform: rotate(0deg); 
 }
 
 .sidebar-cta__number{
